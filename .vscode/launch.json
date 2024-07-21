@@ -18,6 +18,7 @@
       "type": "node",
       "request": "launch",
       "program": "${file}",
+      "preLaunchTask": "build main project",
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
       "env": {
         "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json"

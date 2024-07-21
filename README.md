@@ -1,6 +1,16 @@
 # Prepare
 
+1. Install packages and submodules
 
+```sh
+make all
+```
+
+2. Run http proxy
+
+```sh
+make run-proxy
+```
 
 ## Ready to 
 
