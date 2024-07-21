@@ -8,9 +8,7 @@ all: clone-submodules install-dependencies build-thin-client
 
 # Target to clone git submodules if not already cloned
 clone-submodules:
-	if [ ! -d "$(SUBMODULE_DIR)" ]; then \
-		git submodule update --init --recursive; \
-	fi
+	git submodule update --init --recursive;
 
 # Target to install dependencies in the submodule
 install-dependencies: clone-submodules
