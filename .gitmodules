@@ -1,4 +1,0 @@
-[submodule "substrate-proxy"]
-	path = substrate-proxy
-	url = https://github.com/UniqueNetwork/substrate-proxy.git
-	branch = master

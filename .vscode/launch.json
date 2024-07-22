@@ -5,8 +5,7 @@
       "name": "Debug Main Project",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/src/index.ts", // Adjust the path to your main project's entry file
-      "preLaunchTask": "build main project",
+      "program": "${workspaceFolder}/src/index.ts",
       "outFiles": ["${workspaceFolder}/dist/**/*.js"],
       "sourceMaps": true,
       "cwd": "${workspaceFolder}",
@@ -18,7 +17,6 @@
       "type": "node",
       "request": "launch",
       "program": "${file}",
-      "preLaunchTask": "build main project",
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
       "env": {
         "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json"
