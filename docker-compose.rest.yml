@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  substrate-proxy:
+    image: uniquenetwork/substrate-proxy:http-proxy-latest
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env

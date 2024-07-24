@@ -2,10 +2,12 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start:debug": "node --inspect-brk dist/index.js"
+    "start:debug": "node --inspect-brk dist/index.js",
+    "proxy": "make proxy"
   },
   "dependencies": {
-    "@unique-nft/sdk": "^1.0.0-alpha.1",
+    "@pinata/sdk": "^2.1.0",
+    "@unique-nft/sdk": "1.0.0-alpha.4",
     "@unique-nft/sr25519": "^0.0.2",
     "dotenv": "^16.4.5",
     "ts-node": "^10.9.2"
